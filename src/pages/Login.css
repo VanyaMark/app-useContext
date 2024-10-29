@@ -1,0 +1,64 @@
+/* Login form container */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  background-color: #f7fafc;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Input fields styling */
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #cbd5e0;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #2d3748;
+}
+
+/* Button container styling */
+.button-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+/* Login and logout button styling */
+.button-container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Login button styling */
+.button-container .login-button {
+  background-color: #3182ce;
+  /* Blue background */
+  color: #fff;
+}
+
+.button-container .login-button:hover {
+  background-color: #2b6cb0;
+}
+
+/* Logout button styling */
+.button-container .logout-button {
+  background-color: #e53e3e;
+  /* Red background */
+  color: #fff;
+}
+
+.button-container .logout-button:hover {
+  background-color: #c53030;
+}

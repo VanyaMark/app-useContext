@@ -1,0 +1,63 @@
+/* Navbar container styling */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d3748;
+  /* Dark background color */
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow */
+}
+
+/* Navbar inner nav and list styling */
+.navbar nav ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Link styling */
+.navbar .nav-link {
+  font-size: 16px;
+  color: #ffffff;
+  /* White text color */
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Links within .nav-link */
+.navbar .nav-link a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* Hover effect for links */
+.navbar .nav-link a:hover {
+  background-color: #4a5568;
+  /* Darker background on hover */
+  color: #e2e8f0;
+}
+
+/* Styling for the Logout button */
+.navbar .nav-link button {
+  background-color: #3182ce;
+  /* Blue background */
+  color: #ffffff;
+  /* White text */
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+}
+
+.navbar .nav-link button:hover {
+  background-color: #2b6cb0;
+  /* Darker blue on hover */
+}
